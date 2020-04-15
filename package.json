@@ -1,0 +1,30 @@
+{
+  "name": "compare-category",
+  "version": "0.0.1",
+  "description": "A simple command line tool used to compare two directory, in order to calculate total changing amount. If one file is changed, its whole file size will be considered.",
+  "main": "README.md",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yakima-Teng/compare-category.git"
+  },
+  "keywords": [
+    "compare",
+    "compare",
+    "category",
+    "diff",
+    "diff",
+    "category"
+  ],
+  "author": "veryplans@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yakima-Teng/compare-category/issues"
+  },
+  "homepage": "https://github.com/Yakima-Teng/compare-category#readme"
+}
