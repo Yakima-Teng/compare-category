@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+const { program } = require('commander')
+const compare = require('../lib/compare')
+
+program
+    .version(require('../package').version)
+    .command('start <sourceDir> <targetDir>')
+    .action((sourceDir, targetDir) => {
+        compare(sourceDir, targetDir)
+    })
+
+program
+    .option('-s, --source', 'source category path')
+    .option('-t, --target', 'target category path')
+
+program
+    .parse(process.argv)
